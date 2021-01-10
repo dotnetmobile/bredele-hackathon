@@ -29,7 +29,7 @@ The trained model should be able to detect 16 different object types:
 |:----:|--------------------------------------|------------------------------|
 |1     | [Christmas tree](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_88_of_511.jpeg)                   |                              |
 |2     | [flake](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_137_of_511.jpeg)                            |                              |
-|3     | [heart #1](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_385_of_511.jpeg)                            |                              |
+|3     | [heart #1](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_385_of_511.jpeg)                            | commercial                   |
 |3     | [heart #2](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_153_of_511.jpeg)                            |                              |
 |4     | [king mage](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_136_of_511.jpeg)                        |                              |
 |5     | [lamb](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_157_of_511.jpeg)                             |                              |
@@ -39,7 +39,7 @@ The trained model should be able to detect 16 different object types:
 |8     | [snowman](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_132_of_511.jpeg)                          |                              |
 |9     | [shooting star](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_156_of_511.jpeg)                    |                              |
 |10    | [squirrel](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_151_of_511.jpeg)                         |                              |
-|11    | [star #1](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_383_of_511.jpeg)                             |                              |
+|11    | [star #1](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_383_of_511.jpeg)                             | commercial               |
 |11    | [star #2](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_165_of_511.jpeg)                             |                              |
 |12    | [weird #1](https://github.com/dotnetmobile/bredele-hackathon/blob/main/images-small/training/bredelehackathon_406_of_511.jpeg)                         | forgot baker's yeast ;-)     |
 |13    | [weird #2]()                         | forgot baker's yeast ;-)     |
