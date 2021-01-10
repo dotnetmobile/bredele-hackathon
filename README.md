@@ -2,7 +2,7 @@
   by dotnetmobile@gmail.com
 ---
 
-## Proof of concept using a [Raspberry pi 4 (8GB RAM)](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) and a [Coral USB device](https://coral.ai/products/accelerator) for detecting [Bredele](https://en.wikipedia.org/wiki/Bredele) using the [TensorFlow Machine Learning platform](https://www.tensorflow.org) and the [Faster RCNN Inception model](https://tfhub.dev/tensorflow/mask_rcnn/inception_resnet_v2_1024x1024/1).
+## Proof of concept based on a [Raspberry pi 4 (8GB RAM)](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) and a [Coral USB device](https://coral.ai/products/accelerator) for detecting [Bredele](https://en.wikipedia.org/wiki/Bredele) using the [TensorFlow Machine Learning platform](https://www.tensorflow.org) and the [Faster RCNN Inception model](https://tfhub.dev/tensorflow/mask_rcnn/inception_resnet_v2_1024x1024/1).
 
 All credits go to authors of following remarkable references:
 
