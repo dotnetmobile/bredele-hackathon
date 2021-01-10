@@ -15,9 +15,10 @@ All credits go to authors of following remarkable references:
 ## Context
 
 I successfully deployed on my Raspberry Pi the excellent tutorial [TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi](https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi).
-I noticed that the objects detection was time to time mismatching objects like apple, orange and ball.
-Therefore I decided to train an object detection and to see if I can get a better detection.
-As it was the Christmas period and we cooked quite a lot of Bredele, I trained the Faster RCNN Inception model using cookies. It was a good starting point using my own pictures.
+I noticed that the objects detection trained model was time to time mismatching objects like apples, oranges and balls.
+Therefore I decided to retrain the model in order to see if I can get a better object detection.
+As it was the Christmas period and we cooked quite a lot of Bredele, I trained the Faster RCNN Inception model using our own cookies.
+It was a good starting point for using TensorFlow ;-)
 
 ---
 
@@ -50,3 +51,10 @@ The trained model should be able to detect 16 different object types:
 ---
 
 ## Environment
+
+* OS: [MacOS Big Sur](https://www.apple.com/uk/macos/big-sur/)
+* [Anaconda 1.10.0](https://www.anaconda.com) with Python 3.8
+* [TensorFlow Object Detection Git repository](https://github.com/tensorflow/models)
+* [LabelImg](https://github.com/tzutalin/labelImg) for objects annotation
+
+___
