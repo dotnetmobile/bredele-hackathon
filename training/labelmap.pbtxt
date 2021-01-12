@@ -1,0 +1,79 @@
+item {
+  id: 1
+  name: 'christmas tree'
+}
+
+item {
+  id: 2
+  name: 'flake'
+}
+
+item {
+  id: 3
+  name: 'heart'
+}
+
+item {
+  id: 4
+  name: 'king mage'
+}
+
+item {
+  id: 5
+  name: 'lamb'
+}
+
+item {
+  id: 6
+  name: 'santa claus'
+}
+
+item {
+  id: 7
+  name: 'snowball'
+}
+
+item {
+  id: 8
+  name: 'snowman'
+}
+
+item {
+  id: 9
+  name: 'shooting star'
+}
+
+item {
+  id: 10
+  name: 'squirrel'
+}
+
+item {
+  id: 11
+  name: 'star'
+}
+
+item {
+  id: 12
+  name: 'weird #1'
+}
+
+item {
+  id: 13
+  name: 'weird #2'
+}
+
+item {
+  id: 14
+  name: 'christmas shortbread with jam'
+}
+
+item {
+  id: 15
+  name: 'angel'
+}
+
+item {
+  id: 16
+  name: 'bretzel'
+}
