@@ -2,7 +2,7 @@
   by dotnetmobile@gmail.com
 ---
 
-## Quick installation
+## Quick installation 
 This installation steps have been done for TensorFlow 2.4 + Anaconda with Python 3.8
 
 [Download and install Anaconda](https://www.anaconda.com/products/individual)

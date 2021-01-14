@@ -61,7 +61,7 @@ The trained model should be able to detect 16 different object types:
 
 ## Setup the bredele bredele hackathon environment
 
-Follow instructions described in [INSTALL.md](https://github.com/dotnetmobile/bredele-hackathon/INSTALL.md)
+Follow instructions described in [INSTALL.md](https://github.com/dotnetmobile/bredele-hackathon/blob/main/INSTALL.md)
 
 
 
