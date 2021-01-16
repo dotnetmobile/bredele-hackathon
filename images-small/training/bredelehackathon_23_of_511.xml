@@ -1,13 +1,13 @@
 <annotation>
 	<folder>training</folder>
 	<filename>bredelehackathon_23_of_511.jpeg</filename>
-	<path>/Users/Dotnetmobile/Documents/bredele-hackathon/images-small/training/bredelehackathon_23_of_511.jpeg</path>
+	<path>/Users/Dotnetmobile/Documents/bredele-hackathon/images/training/bredelehackathon_23_of_511.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1008</width>
-		<height>756</height>
+		<width>756</width>
+		<height>1008</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>206</xmin>
-			<ymin>49</ymin>
-			<xmax>430</xmax>
-			<ymax>278</ymax>
+			<xmin>48</xmin>
+			<ymin>572</ymin>
+			<xmax>279</xmax>
+			<ymax>802</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>463</xmin>
-			<ymin>188</ymin>
-			<xmax>703</xmax>
-			<ymax>391</ymax>
+			<xmin>182</xmin>
+			<ymin>302</ymin>
+			<xmax>390</xmax>
+			<ymax>548</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>398</xmin>
-			<ymin>372</ymin>
-			<xmax>543</xmax>
-			<ymax>548</ymax>
+			<xmin>364</xmin>
+			<ymin>455</ymin>
+			<xmax>554</xmax>
+			<ymax>619</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>533</xmin>
-			<ymin>500</ymin>
-			<xmax>673</xmax>
-			<ymax>670</ymax>
+			<xmin>505</xmin>
+			<ymin>318</ymin>
+			<xmax>669</xmax>
+			<ymax>489</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>743</xmin>
-			<ymin>372</ymin>
-			<xmax>932</xmax>
-			<ymax>554</ymax>
+			<xmin>371</xmin>
+			<ymin>71</ymin>
+			<xmax>555</xmax>
+			<ymax>264</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>133</xmin>
-			<ymin>340</ymin>
-			<xmax>373</xmax>
-			<ymax>468</ymax>
+			<xmin>341</xmin>
+			<ymin>631</ymin>
+			<xmax>479</xmax>
+			<ymax>891</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>119</xmin>
-			<ymin>511</ymin>
-			<xmax>367</xmax>
-			<ymax>632</ymax>
+			<xmin>502</xmin>
+			<ymin>636</ymin>
+			<xmax>632</xmax>
+			<ymax>895</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,0 +1,98 @@
+<annotation>
+	<folder>training</folder>
+	<filename>bredelehackathon_200_of_511.jpeg</filename>
+	<path>/Users/Dotnetmobile/Documents/bredele-hackathon/images-small/training/bredelehackathon_200_of_511.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>756</width>
+		<height>1008</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>192</xmin>
+			<ymin>202</ymin>
+			<xmax>560</xmax>
+			<ymax>541</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>535</xmin>
+			<ymin>168</ymin>
+			<xmax>756</xmax>
+			<ymax>468</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>553</xmin>
+			<ymin>670</ymin>
+			<xmax>756</xmax>
+			<ymax>1007</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>114</xmin>
+			<ymin>576</ymin>
+			<xmax>543</xmax>
+			<ymax>1007</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>224</xmin>
+			<ymin>1</ymin>
+			<xmax>491</xmax>
+			<ymax>174</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>495</xmin>
+			<ymin>1</ymin>
+			<xmax>742</xmax>
+			<ymax>175</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>230</xmax>
+			<ymax>189</ymax>
+		</bndbox>
+	</object>
+</annotation>

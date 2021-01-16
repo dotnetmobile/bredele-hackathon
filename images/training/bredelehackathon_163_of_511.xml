@@ -1,0 +1,26 @@
+<annotation>
+	<folder>training</folder>
+	<filename>bredelehackathon_163_of_511.jpeg</filename>
+	<path>/Users/Dotnetmobile/Documents/bredele-hackathon/images-small/training/bredelehackathon_163_of_511.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>756</width>
+		<height>1008</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>star</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>208</xmin>
+			<ymin>365</ymin>
+			<xmax>672</xmax>
+			<ymax>842</ymax>
+		</bndbox>
+	</object>
+</annotation>

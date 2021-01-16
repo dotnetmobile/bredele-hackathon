@@ -1,0 +1,26 @@
+<annotation>
+	<folder>training</folder>
+	<filename>bredelehackathon_188_of_511.jpeg</filename>
+	<path>/Users/Dotnetmobile/Documents/bredele-hackathon/images-small/training/bredelehackathon_188_of_511.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>756</width>
+		<height>1008</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>222</ymin>
+			<xmax>756</xmax>
+			<ymax>1008</ymax>
+		</bndbox>
+	</object>
+</annotation>

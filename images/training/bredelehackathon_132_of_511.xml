@@ -1,0 +1,26 @@
+<annotation>
+	<folder>training</folder>
+	<filename>bredelehackathon_132_of_511.jpeg</filename>
+	<path>/Users/Dotnetmobile/Documents/bredele-hackathon/images-small/training/bredelehackathon_132_of_511.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>756</width>
+		<height>1008</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>snowman</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>165</xmin>
+			<ymin>17</ymin>
+			<xmax>574</xmax>
+			<ymax>839</ymax>
+		</bndbox>
+	</object>
+</annotation>

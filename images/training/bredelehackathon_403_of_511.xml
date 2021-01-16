@@ -1,0 +1,50 @@
+<annotation>
+	<folder>training</folder>
+	<filename>bredelehackathon_403_of_511.jpeg</filename>
+	<path>/Users/Dotnetmobile/Documents/bredele-hackathon/images-small/training/bredelehackathon_403_of_511.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>756</width>
+		<height>1008</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>weird #1</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>87</xmin>
+			<ymin>47</ymin>
+			<xmax>665</xmax>
+			<ymax>457</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>weird #1</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>194</ymin>
+			<xmax>698</xmax>
+			<ymax>840</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>weird #1</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>756</ymin>
+			<xmax>441</xmax>
+			<ymax>1008</ymax>
+		</bndbox>
+	</object>
+</annotation>

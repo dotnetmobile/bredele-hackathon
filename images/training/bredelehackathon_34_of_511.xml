@@ -1,0 +1,26 @@
+<annotation>
+	<folder>training</folder>
+	<filename>bredelehackathon_34_of_511.jpeg</filename>
+	<path>/Users/Dotnetmobile/Documents/bredele-hackathon/images-small/training/bredelehackathon_34_of_511.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1008</width>
+		<height>756</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>santa claus</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>291</xmin>
+			<ymin>84</ymin>
+			<xmax>866</xmax>
+			<ymax>732</ymax>
+		</bndbox>
+	</object>
+</annotation>

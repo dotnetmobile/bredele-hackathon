@@ -6,33 +6,33 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1008</width>
-		<height>756</height>
+		<width>756</width>
+		<height>1008</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
 		<name>bretzel</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>570</xmin>
-			<ymin>4</ymin>
-			<xmax>979</xmax>
-			<ymax>410</ymax>
+			<xmin>1</xmin>
+			<ymin>28</ymin>
+			<xmax>406</xmax>
+			<ymax>430</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>star</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>305</xmin>
-			<ymin>437</ymin>
-			<xmax>785</xmax>
-			<ymax>755</ymax>
+			<xmin>442</xmin>
+			<ymin>216</ymin>
+			<xmax>756</xmax>
+			<ymax>700</ymax>
 		</bndbox>
 	</object>
 </annotation>

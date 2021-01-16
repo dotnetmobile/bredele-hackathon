@@ -6,45 +6,21 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1008</width>
-		<height>756</height>
+		<width>756</width>
+		<height>1008</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
 		<name>christmas shortbread with jam</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>396</xmin>
-			<ymin>3</ymin>
-			<xmax>675</xmax>
-			<ymax>299</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>christmas shortbread with jam</name>
-		<pose>Unspecified</pose>
 		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>139</xmin>
-			<ymin>1</ymin>
-			<xmax>393</xmax>
-			<ymax>208</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>christmas shortbread with jam</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>4</xmin>
-			<ymin>19</ymin>
-			<xmax>135</xmax>
-			<ymax>251</ymax>
+			<ymin>1</ymin>
+			<xmax>329</xmax>
+			<ymax>259</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>25</xmin>
-			<ymin>258</ymin>
-			<xmax>213</xmax>
-			<ymax>494</ymax>
+			<xmin>6</xmin>
+			<ymin>336</ymin>
+			<xmax>301</xmax>
+			<ymax>609</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,22 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>256</xmin>
-			<ymin>300</ymin>
-			<xmax>479</xmax>
-			<ymax>559</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>christmas shortbread with jam</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>533</xmin>
-			<ymin>285</ymin>
-			<xmax>844</xmax>
-			<ymax>592</ymax>
+			<xmin>282</xmin>
+			<ymin>152</ymin>
+			<xmax>597</xmax>
+			<ymax>483</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +53,10 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>742</xmin>
-			<ymin>4</ymin>
-			<xmax>1008</xmax>
-			<ymax>317</ymax>
+			<xmin>574</xmin>
+			<ymin>277</ymin>
+			<xmax>756</xmax>
+			<ymax>571</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -101,10 +65,22 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>431</xmin>
-			<ymin>566</ymin>
-			<xmax>722</xmax>
-			<ymax>756</ymax>
+			<xmin>583</xmin>
+			<ymin>577</ymin>
+			<xmax>756</xmax>
+			<ymax>791</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>532</xmin>
+			<ymin>771</ymin>
+			<xmax>756</xmax>
+			<ymax>965</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>214</xmin>
-			<ymin>572</ymin>
-			<xmax>439</xmax>
-			<ymax>753</ymax>
+			<xmin>304</xmin>
+			<ymin>510</ymin>
+			<xmax>563</xmax>
+			<ymax>754</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +101,34 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>35</xmin>
-			<ymin>530</ymin>
-			<xmax>228</xmax>
-			<ymax>755</ymax>
+			<xmin>265</xmin>
+			<ymin>780</ymin>
+			<xmax>490</xmax>
+			<ymax>995</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>615</ymin>
+			<xmax>205</xmax>
+			<ymax>874</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>20</xmin>
+			<ymin>875</ymin>
+			<xmax>259</xmax>
+			<ymax>1008</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -6,21 +6,21 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1008</width>
-		<height>756</height>
+		<width>756</width>
+		<height>1008</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
 		<name>christmas shortbread with jam</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>141</xmin>
-			<ymin>142</ymin>
-			<xmax>425</xmax>
-			<ymax>416</ymax>
+			<xmin>444</xmin>
+			<ymin>170</ymin>
+			<xmax>756</xmax>
+			<ymax>488</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,34 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>503</xmin>
-			<ymin>101</ymin>
-			<xmax>793</xmax>
-			<ymax>372</ymax>
+			<xmin>108</xmin>
+			<ymin>216</ymin>
+			<xmax>372</xmax>
+			<ymax>501</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>142</xmin>
+			<ymin>580</ymin>
+			<xmax>417</xmax>
+			<ymax>866</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>391</xmin>
+			<ymin>510</ymin>
+			<xmax>709</xmax>
+			<ymax>832</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,22 +65,10 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>516</xmin>
-			<ymin>444</ymin>
-			<xmax>831</xmax>
-			<ymax>756</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>christmas shortbread with jam</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>181</xmin>
-			<ymin>392</ymin>
-			<xmax>486</xmax>
-			<ymax>701</ymax>
+			<xmin>563</xmin>
+			<ymin>783</ymin>
+			<xmax>756</xmax>
+			<ymax>1007</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,22 +77,10 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3</xmin>
-			<ymin>1</ymin>
-			<xmax>149</xmax>
-			<ymax>251</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>christmas shortbread with jam</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2</xmin>
-			<ymin>575</ymin>
-			<xmax>222</xmax>
-			<ymax>755</ymax>
+			<xmin>1</xmin>
+			<ymin>856</ymin>
+			<xmax>255</xmax>
+			<ymax>1008</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>star</name>
+		<name>heart</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4</xmin>
-			<ymin>816</ymin>
-			<xmax>344</xmax>
-			<ymax>1008</ymax>
+			<xmin>1</xmin>
+			<ymin>184</ymin>
+			<xmax>382</xmax>
+			<ymax>738</ymax>
 		</bndbox>
 	</object>
 </annotation>

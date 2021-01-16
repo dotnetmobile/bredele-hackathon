@@ -23,4 +23,16 @@
 			<ymax>864</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>christmas shortbread with jam</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>314</xmin>
+			<ymin>4</ymin>
+			<xmax>756</xmax>
+			<ymax>219</ymax>
+		</bndbox>
+	</object>
 </annotation>

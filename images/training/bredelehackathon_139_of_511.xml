@@ -1,0 +1,26 @@
+<annotation>
+	<folder>training</folder>
+	<filename>bredelehackathon_139_of_511.jpeg</filename>
+	<path>/Users/Dotnetmobile/Documents/bredele-hackathon/images-small/training/bredelehackathon_139_of_511.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>756</width>
+		<height>1008</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>squirrel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>93</xmin>
+			<ymin>227</ymin>
+			<xmax>755</xmax>
+			<ymax>883</ymax>
+		</bndbox>
+	</object>
+</annotation>

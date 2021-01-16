@@ -6,20 +6,20 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1008</width>
-		<height>756</height>
+		<width>756</width>
+		<height>1008</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
 		<name>lamb</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>266</xmin>
-			<ymin>75</ymin>
-			<xmax>801</xmax>
+			<xmin>82</xmin>
+			<ymin>218</ymin>
+			<xmax>756</xmax>
 			<ymax>720</ymax>
 		</bndbox>
 	</object>
