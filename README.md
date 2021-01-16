@@ -15,9 +15,9 @@ All credits go to the authors (@EdjeElectronics + @tensorflow) of following rema
 ---
 ## Context
 
-I successfully deployed on my Raspberry Pi all the installation steps of the excellent tutorial [TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi](https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi).
-I noticed that the objects detection trained model was time to time mismatching objects like apples, oranges and balls.
-Therefore I decided to retrain the model in order to see if I can get a better object detection.
+I successfully deployed on my Raspberry Pi all the installation steps of the excellent tutorial [TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi](https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi).<br>
+I noticed that the objects detection trained model was time to time mismatching objects like apples, oranges and balls.<br>
+Therefore I decided to retrain the model in order to see if I can get a better object detection.<br>
 As it was the Christmas period and we cooked quite a lot of Bredele, I trained the Faster RCNN Inception model using our own cookies.
 It was a good starting point for using TensorFlow :wink:
 
@@ -59,7 +59,7 @@ The trained model should be able to detect 16 different object types:
 * [LabelImg](https://github.com/tzutalin/labelImg) for objects annotation
 * [EdgeElectronics git repository](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10/archive) instructions for training the model
 
-## Setup the bredele bredele hackathon environment
+## Setup the bredele hackathon environment
 
 Follow instructions described in [INSTALL.md](https://github.com/dotnetmobile/bredele-hackathon/blob/main/INSTALL.md)
 

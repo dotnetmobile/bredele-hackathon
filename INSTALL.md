@@ -2,7 +2,7 @@
   by dotnetmobile@gmail.com
 ---
 
-## Quick installation 
+## Quick installation
 This installation steps have been done for TensorFlow 2.4 + Anaconda with Python 3.8
 
 [Download and install Anaconda](https://www.anaconda.com/products/individual)
@@ -101,7 +101,7 @@ cp -r ./bredele-hackathon/images-small/training/*  ./models/research/object_dete
 cp -r ./bredele-hackathon/images-small/test/*  ./models/research/object_detection/images/test
 ```
 
-### Step 9: compile Protobufs and executing setup.py
+### Step 9: compile Protobufs and execute setup.py
 
 ```
 cd $MYHOME/tensorflow2/models/research
@@ -144,11 +144,21 @@ cd $MYHOME/tensorflow2
 cp -r bredele-hackathon/training/* ./models/research/object_detection/training/
 ```
 
-### Step 13: edit *faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config* and change the following lines:
+### Step 13: change default configurations
 
 ```
 cd $MYHOME/tensorflow2/models/research/object_detection/training
 ```
+
+Edit hyper parameters <bf>
+
+```
+vi faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config
+```
+<br>
+
+and change the following lines:
+
 
 #### 13.1: change line *104+105*
 
@@ -164,7 +174,7 @@ fine_tune_checkpoint: ""
 fine_tune_checkpoint_type: "detection"
 ```
 
-#### 13.2: adapt path in lines *133* to *138* with your own $MYHOME path as you can see mine below
+#### 13.2: adapt path in lines *133* to *138* with your own $MYHOME path; here you see mine by default
 
 ```
 train_input_reader: {
@@ -175,7 +185,7 @@ train_input_reader: {
 }
 ```
 
-#### 13.3: adapt lines *146* to *153* with your own $MYHOME path as you can see mine below
+#### 13.3: adapt lines *146* to *153* with your own $MYHOME path; here you see mine by default
 
 ```
 eval_input_reader: {
@@ -206,7 +216,7 @@ mkdir bredele_output
 mkdir bredele_output/run1
 ```
 
-#### 14.3 start the training (first run = run1) with 2500 iterations using the hyper parameters defined in *faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config* and save intermediate checkpoints every 500 iterations
+#### 14.3 start the training (first run = run1) with 2500 iterations using the hyper parameters values stored in *faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config* and save intermediate checkpoints every 500 iterations
 
 ```
 python model_main_tf2.py --model_dir=bredele_output/run1 --num_train_steps=2500 --sample_1_of_n_eval_examples=1 --pipeline_config_path=training/faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config --alsologtostderr --checkpoint_every_n=500
@@ -228,7 +238,7 @@ export PYTHONPATH=$PYTHONPATH:$MYHOME/tensorflow2/models/:$MYHOME/tensorflow2/mo
 cd $MYHOME/tensorflow2/models/research/object_detection
 ```
 
-Start TensorBoard:
+Start TensorBoard
 
 ```
 tensorboard --logdir=bredele_output --bind_all
