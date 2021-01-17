@@ -6,21 +6,21 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1008</width>
-		<height>756</height>
+		<width>756</width>
+		<height>1008</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
 		<name>weird #1</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>197</xmin>
-			<ymin>165</ymin>
-			<xmax>538</xmax>
-			<ymax>412</ymax>
+			<xmin>240</xmin>
+			<ymin>1</ymin>
+			<xmax>490</xmax>
+			<ymax>279</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>729</xmin>
-			<ymin>240</ymin>
-			<xmax>1008</xmax>
-			<ymax>494</ymax>
+			<xmin>657</xmin>
+			<ymin>90</ymin>
+			<xmax>756</xmax>
+			<ymax>409</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,22 +41,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>310</xmin>
-			<ymin>457</ymin>
-			<xmax>630</xmax>
-			<ymax>700</ymax>
+			<xmin>167</xmin>
+			<ymin>472</ymin>
+			<xmax>416</xmax>
+			<ymax>800</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>weird #1</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>597</xmin>
-			<ymin>649</ymin>
-			<xmax>959</xmax>
-			<ymax>756</ymax>
+			<xmin>465</xmin>
+			<ymin>377</ymin>
+			<xmax>700</xmax>
+			<ymax>696</ymax>
 		</bndbox>
 	</object>
 </annotation>

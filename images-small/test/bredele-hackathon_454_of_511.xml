@@ -539,4 +539,28 @@
 			<ymax>94</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>squirrel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>558</xmin>
+			<ymin>104</ymin>
+			<xmax>633</xmax>
+			<ymax>190</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>squirrel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>580</xmin>
+			<ymin>186</ymin>
+			<xmax>662</xmax>
+			<ymax>273</ymax>
+		</bndbox>
+	</object>
 </annotation>

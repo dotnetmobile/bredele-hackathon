@@ -6,21 +6,21 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1008</width>
-		<height>756</height>
+		<width>756</width>
+		<height>1008</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
 		<name>weird #1</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>239</xmin>
-			<ymin>210</ymin>
-			<xmax>939</xmax>
-			<ymax>756</ymax>
+			<xmin>220</xmin>
+			<ymin>74</ymin>
+			<xmax>724</xmax>
+			<ymax>759</ymax>
 		</bndbox>
 	</object>
 </annotation>

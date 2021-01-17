@@ -6,8 +6,8 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1008</width>
-		<height>756</height>
+		<width>756</width>
+		<height>1008</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>329</xmin>
-			<ymin>37</ymin>
-			<xmax>691</xmax>
-			<ymax>226</ymax>
+			<xmin>238</xmin>
+			<ymin>117</ymin>
+			<xmax>649</xmax>
+			<ymax>375</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>weird #1</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>311</xmin>
+			<ymin>690</ymin>
+			<xmax>741</xmax>
+			<ymax>1008</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>635</xmin>
-			<ymin>231</ymin>
-			<xmax>897</xmax>
-			<ymax>652</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>weird #1</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5</xmin>
-			<ymin>298</ymin>
-			<xmax>329</xmax>
-			<ymax>739</ymax>
+			<xmin>29</xmin>
+			<ymin>297</ymin>
+			<xmax>219</xmax>
+			<ymax>688</ymax>
 		</bndbox>
 	</object>
 </annotation>
