@@ -4,7 +4,7 @@
 
 ## Proof of concept based on a [Raspberry pi 4 (8GB RAM)](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) and a [Coral USB device](https://coral.ai/products/accelerator) for detecting [Bredele](https://en.wikipedia.org/wiki/Bredele) using the [TensorFlow Machine Learning platform version 2](https://www.tensorflow.org) and the [Faster RCNN Inception model](https://tfhub.dev/tensorflow/faster_rcnn/inception_resnet_v2_1024x1024/1).
 
-All credits go to the authors (@EdjeElectronics + @tensorflow) of following remarkable references:
+All credits go to the authors (@EdjeElectronics + @tensorflow) of the following remarkable references:
 
 * [TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi](https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi)
 * [How To Train an Object Detection Classifier for Multiple Objects Using TensorFlow (GPU) on Windows 10](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10)

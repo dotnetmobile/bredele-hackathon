@@ -216,7 +216,9 @@ mkdir bredele_output
 mkdir bredele_output/run1
 ```
 
-#### 14.3 start the training (first run = run1) with 2500 iterations using the hyper parameters values stored in *faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config* and save intermediate checkpoints every 500 iterations
+#### 14.3 start the training (first run = run1) with 2500 iterations using the hyper parameters values stored in <br>
+> *faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config* <br>
+#### and save intermediate checkpoints every 500 iterations
 
 ```
 python model_main_tf2.py --model_dir=bredele_output/run1 --num_train_steps=2500 --sample_1_of_n_eval_examples=1 --pipeline_config_path=training/faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config --alsologtostderr --checkpoint_every_n=500
