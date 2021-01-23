@@ -34,6 +34,8 @@ pip install opencv-python
 pip install lvis
 pip install pyyaml
 pip install scipy
+pip install tf_slim
+pip install pycocotools
 ```
 
 ### Step 3: create environment variable MYHOME
@@ -265,7 +267,7 @@ cd /Users/Dotnetmobile/Applications
 
 conda activate tensorflow2
 
-EXPORT MYHOME=/Users/Dotnetmobile/Documents
+export MYHOME=/Users/Dotnetmobile/Documents
 
 export PYTHONPATH=$PYTHONPATH:$MYHOME/tensorflow2/models/:$MYHOME/tensorflow2/models/research/:$MYHOME/tensorflow2/models/research/slim/
 
@@ -286,11 +288,11 @@ Finally open your Internet browser and enter the tensorboard URL provided by the
 This is a short way once all previous steps have been executed (step 1 -> Step 13)
 
 ```
-cd /Users/Dotnetmobile/Applications
+cd /Users/Dotnetmobile/Documents
 
-conda activate tensorflow2/
+conda activate tensorflow2
 
-EXPORT MYHOME=/Users/Dotnetmobile/Documents
+export MYHOME=/Users/Dotnetmobile/Documents
 
 export PYTHONPATH=$PYTHONPATH:$MYHOME/tensorflow2/models/:$MYHOME/tensorflow2/models/research/:$MYHOME/tensorflow2/models/research/slim/
 
