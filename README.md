@@ -63,6 +63,17 @@ The trained model should be able to detect 16 different object types:
 
 Follow instructions described in [INSTALL.md](https://github.com/dotnetmobile/bredele-hackathon/blob/main/INSTALL.md)
 
+Please note that all bredele images used for the training and the testing have the size of 756x1008 (width x heigh). <br>
+So the original <br>
+```
+faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-
+8.config
+```
+has been cloned in <br>
+```
+faster_rcnn_inception_resnet_v2_756x1008_coco17_tpu-8.config
+```
+and adapted to fit with the corresponding images size.
 
 
 
