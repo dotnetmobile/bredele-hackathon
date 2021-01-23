@@ -39,7 +39,7 @@ pip install scipy
 ### Step 3: create environment variable MYHOME
 
 ```
-EXPORT MYHOME=/Users/Dotnetmobile/Documents
+export MYHOME=/Users/Dotnetmobile/Documents
 ```
 
 ### Step 4: create the tensorflow folders environment based on Git source code repository
@@ -55,7 +55,7 @@ git clone https://github.com/tensorflow/models.git
 ### Step 5: extend your existing environment variable PYTHONPATH
 
 ```
-EXPORT PYTHONPATH=$PYTHONPATH:$MYHOME/tensorflow2/models/:$MYHOME/tensorflow2/models/research/:$MYHOME/tensorflow2/models/research/slim/
+export PYTHONPATH=$PYTHONPATH:$MYHOME/tensorflow2/models/:$MYHOME/tensorflow2/models/research/:$MYHOME/tensorflow2/models/research/slim/
 ```
 
 ### Step 6: download Edge Electronic tutorial
@@ -66,6 +66,8 @@ cd $MYHOME/tensorflow2/models/research/object_detection
 wget https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10/archive/master.zip
 
 unzip master.zip
+
+rm master.zip
 
 mv  ./TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10-master/* .
 ```
@@ -105,7 +107,40 @@ cp -r ./bredele-hackathon/images-small/test/*  ./models/research/object_detectio
 
 ```
 cd $MYHOME/tensorflow2/models/research
-protoc --python_out=. ./object_detection/protos/anchor_generator.proto ./object_detection/protos/argmax_matcher.proto ./object_detection/protos/bipartite_matcher.proto ./object_detection/protos/box_coder.proto ./object_detection/protos/box_predictor.proto ./object_detection/protos/eval.proto ./object_detection/protos/faster_rcnn.proto ./object_detection/protos/faster_rcnn_box_coder.proto ./object_detection/protos/grid_anchor_generator.proto ./object_detection/protos/hyperparams.proto ./object_detection/protos/image_resizer.proto ./object_detection/protos/input_reader.proto ./object_detection/protos/losses.proto ./object_detection/protos/matcher.proto ./object_detection/protos/mean_stddev_box_coder.proto ./object_detection/protos/model.proto ./object_detection/protos/optimizer.proto ./object_detection/protos/pipeline.proto ./object_detection/protos/post_processing.proto ./object_detection/protos/preprocessor.proto ./object_detection/protos/region_similarity_calculator.proto ./object_detection/protos/square_box_coder.proto ./object_detection/protos/ssd.proto ./object_detection/protos/ssd_anchor_generator.proto ./object_detection/protos/string_int_label_map.proto ./object_detection/protos/train.proto ./object_detection/protos/keypoint_box_coder.proto ./object_detection/protos/multiscale_anchor_generator.proto ./object_detection/protos/graph_rewriter.proto ./object_detection/protos/calibration.proto ./object_detection/protos/flexible_grid_anchor_generator.proto ./object_detection/protos/fpn.proto ./object_detection/protos/center_net.proto
+
+protoc --python_out=. ./object_detection/protos/anchor_generator.proto \
+./object_detection/protos/argmax_matcher.proto \
+./object_detection/protos/bipartite_matcher.proto \
+./object_detection/protos/box_coder.proto \
+./object_detection/protos/box_predictor.proto \
+./object_detection/protos/eval.proto \
+./object_detection/protos/faster_rcnn.proto \
+./object_detection/protos/faster_rcnn_box_coder.proto \
+./object_detection/protos/grid_anchor_generator.proto \
+./object_detection/protos/hyperparams.proto \
+./object_detection/protos/image_resizer.proto \
+./object_detection/protos/input_reader.proto \
+./object_detection/protos/losses.proto \
+./object_detection/protos/matcher.proto \
+./object_detection/protos/mean_stddev_box_coder.proto \
+./object_detection/protos/model.proto \
+./object_detection/protos/optimizer.proto \
+./object_detection/protos/pipeline.proto \
+./object_detection/protos/post_processing.proto \
+./object_detection/protos/preprocessor.proto \
+./object_detection/protos/region_similarity_calculator.proto \
+./object_detection/protos/square_box_coder.proto \
+./object_detection/protos/ssd.proto \
+./object_detection/protos/ssd_anchor_generator.proto \
+./object_detection/protos/string_int_label_map.proto \
+./object_detection/protos/train.proto \
+./object_detection/protos/keypoint_box_coder.proto \
+./object_detection/protos/multiscale_anchor_generator.proto \
+./object_detection/protos/graph_rewriter.proto \
+./object_detection/protos/calibration.proto \
+./object_detection/protos/flexible_grid_anchor_generator.proto \
+./object_detection/protos/fpn.proto \
+./object_detection/protos/center_net.proto
 ```
 
 ### Step 10: generate the training records
@@ -153,28 +188,21 @@ cd $MYHOME/tensorflow2/models/research/object_detection/training
 Edit hyper parameters <bf>
 
 ```
-vi faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config
+vi faster_rcnn_inception_resnet_v2_756x1008_coco17_tpu-8.config
 ```
 <br>
 
 and change the following lines:
 
 
-#### 13.1: change line *104+105*
-
-```
-fine_tune_checkpoint: ""
-fine_tune_checkpoint_type: "classification"
-```
-
-with
+#### 13.1: Check that lines *103+104* are defined as
 
 ```
 fine_tune_checkpoint: ""
 fine_tune_checkpoint_type: "detection"
 ```
 
-#### 13.2: adapt path in lines *133* to *138* with your own $MYHOME path; here you see mine by default
+#### 13.2: adapt path in lines *133* to *135* with your own $MYHOME path; here you see mine by default
 
 ```
 train_input_reader: {
@@ -185,7 +213,7 @@ train_input_reader: {
 }
 ```
 
-#### 13.3: adapt lines *146* to *153* with your own $MYHOME path; here you see mine by default
+#### 13.3: adapt lines *146* to *150* with your own $MYHOME path; here you see mine by default
 
 ```
 eval_input_reader: {
@@ -217,11 +245,15 @@ mkdir bredele_output/run1
 ```
 
 #### 14.3 start the training (first run = run1) with 2500 iterations using the hyper parameters values stored in <br>
-> *faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config* <br>
+> *faster_rcnn_inception_resnet_v2_756x1008_coco17_tpu-8.config* <br>
 #### and save intermediate checkpoints every 500 iterations
 
 ```
-python model_main_tf2.py --model_dir=bredele_output/run1 --num_train_steps=2500 --sample_1_of_n_eval_examples=1 --pipeline_config_path=training/faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config --alsologtostderr --checkpoint_every_n=500
+python model_main_tf2.py --model_dir=bredele_output/run1 \
+--num_train_steps=2500 \
+--sample_1_of_n_eval_examples=100 \
+--pipeline_config_path=training/faster_rcnn_inception_resnet_v2_756x1008_coco17_tpu-8.config \
+--alsologtostderr --checkpoint_every_n=500
 ```
 
 ### Monitoring training and looking into previous trainings using TensorBoard
@@ -231,7 +263,7 @@ python model_main_tf2.py --model_dir=bredele_output/run1 --num_train_steps=2500 
 ```
 cd /Users/Dotnetmobile/Applications
 
-conda activate .conda/envs/tensorflow2/
+conda activate tensorflow2
 
 EXPORT MYHOME=/Users/Dotnetmobile/Documents
 
@@ -256,7 +288,7 @@ This is a short way once all previous steps have been executed (step 1 -> Step 1
 ```
 cd /Users/Dotnetmobile/Applications
 
-conda activate .conda/envs/tensorflow2/
+conda activate tensorflow2/
 
 EXPORT MYHOME=/Users/Dotnetmobile/Documents
 
