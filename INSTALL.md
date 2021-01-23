@@ -246,14 +246,14 @@ mkdir bredele_output/run1
 
 #### 14.3 start the training (first run = run1) with 2500 iterations using the hyper parameters values stored in <br>
 > *faster_rcnn_inception_resnet_v2_756x1008_coco17_tpu-8.config* <br>
-#### and save intermediate checkpoints every 500 iterations
+#### and save intermediate checkpoints every 50 iterations
 
 ```
 python model_main_tf2.py --model_dir=bredele_output/run1 \
 --num_train_steps=2500 \
 --sample_1_of_n_eval_examples=100 \
 --pipeline_config_path=training/faster_rcnn_inception_resnet_v2_756x1008_coco17_tpu-8.config \
---alsologtostderr --checkpoint_every_n=500
+--alsologtostderr --checkpoint_every_n=50
 ```
 
 ### Monitoring training and looking into previous trainings using TensorBoard
@@ -298,7 +298,11 @@ cd $MYHOME/tensorflow2/models/research/object_detection
 
 mkdir bredele_output/run2
 
-python model_main_tf2.py --model_dir=bredele_output/run2 --num_train_steps=2500 --sample_1_of_n_eval_examples=1 --pipeline_config_path=training/faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config --alsologtostderr --checkpoint_every_n=500
+python model_main_tf2.py --model_dir=bredele_output/run2 \
+--num_train_steps=2500 \
+--sample_1_of_n_eval_examples=100 \
+--pipeline_config_path=training/faster_rcnn_inception_resnet_v2_756x1008_coco17_tpu-8.config \
+--alsologtostderr --checkpoint_every_n=50
 ```
 
 :thumbsup: That's it !
