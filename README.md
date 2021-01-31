@@ -76,7 +76,7 @@ The trained model should be able to detect 16 different object types:
 
 ## Setup the bredele hackathon environment
 
-Follow instructions described in [INSTALL.md](https://github.com/dotnetmobile/bredele-hackathon/INSTALL.md)
+Follow instructions described in [INSTALL.md](https://github.com/dotnetmobile/bredele-hackathon/blob/main/INSTALL.md)
 
 Please note that all bredele images used for the training and the testing have the size of 756x1008 (width x heigh). <br>
 So the original <br>
