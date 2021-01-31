@@ -27,7 +27,7 @@ It was a good starting point for using TensorFlow :wink:
 
 The trained model should be able to detect 16 different object types:
 
-|  Id  | Name                                 | Comment                      |
+|  Id  | Object                                 | Comment                      |
 |:----:|--------------------------------------|------------------------------|
 |1     | <img title="Christmas tree" src="./images-small/training/bredelehackathon_88_of_511.jpeg" width="50" height="50"/>  | |
 |2     | <img title="flake" src="./images-small/training/bredelehackathon_137_of_511.jpeg" width="50" height="50" /> | |
