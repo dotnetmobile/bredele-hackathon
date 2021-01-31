@@ -55,14 +55,14 @@ The trained model should be able to detect 16 different object types:
 
 | labels collection |
 | ------------------- |
-| [weird #1, Christmas shortbread with jam](./doc/bredekehackathon_405_of_511.png) |
-| [Santa Claus, shooting star, heart, squirrel, lamb, star](./doc/bredelehackathon_22_of_511.png) |
-| [heart, star](./doc/bredelehackathon_77_of_511.png) |
-| [star, Christmas shortbread with jam](./doc/bredelehackathon_287_of_511.png) |
-| [Christmas tree, star, snowball](./doc/bredelehackathon_327_of_511.png) |
-| [heart, Christmas shortbread with jam, snowball](./doc/bredelehackathon_352_of_511.png) |
-| [Christmas shortbread with jam, snowball, bretzel, heart, star](./doc/bredelehackathon_370_of_511.png) |
-| [star, bretzel, heart](./doc/bredelehackathon_386_of_511.png) |
+| <img title="weird #1, Christmas shortbread with jam" src="./doc/bredekehackathon_405_of_511.png" /> |
+| <img title="Santa Claus, shooting star, heart, squirrel, lamb, star" src="./doc/bredelehackathon_22_of_511.png" /> |
+| <img title="heart, star" src="./doc/bredelehackathon_77_of_511.png" /> |
+| <img title="star, Christmas shortbread with jam" src="./doc/bredelehackathon_287_of_511.png" /> |
+| <img title="Christmas tree, star, snowball" src="./doc/bredelehackathon_327_of_511.png" /> |
+| <img title="heart, Christmas shortbread with jam, snowball" src="./doc/bredelehackathon_352_of_511.png" /> |
+| <img title="Christmas shortbread with jam, snowball, bretzel, heart, star" src="./doc/bredelehackathon_370_of_511.png" /> |
+| <img title="star, bretzel, heart" src="./doc/bredelehackathon_386_of_511.png" /> |
 
 
 ---
