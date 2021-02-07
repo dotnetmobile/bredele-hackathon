@@ -29,25 +29,25 @@ The trained model should be able to detect 16 different object types:
 
 |  Id  | Object                                 | Comment                      |
 |:----:|--------------------------------------|------------------------------|
-|1     | <img title="Christmas tree" src="./images-small/training/bredelehackathon_88_of_511.jpeg" width="50" height="50"/>  | |
-|2     | <img title="flake" src="./images-small/training/bredelehackathon_137_of_511.jpeg" width="50" height="50" /> | |
-|3     | <img title="heart #1" src="./images-small/training/bredelehackathon_385_of_511.jpeg" width="50" height="50" /> | commercial |
-|3     | <img title="heart #2" src="./images-small/training/bredelehackathon_153_of_511.jpeg" width="50" height="50" /> | |
-|4     | <img title="king mage" src="./images-small/training/bredelehackathon_136_of_511.jpeg" width="50" height="50" /> | |
-|5     | <img title="lamb" src="./images-small/training/bredelehackathon_157_of_511.jpeg" width="50" height="50" /> | |
-|6     | <img title="Santa Claus #1" src="./images-small/training/bredelehackathon_140_of_511.jpeg" width="50" height="50" /> | |
-|6     | <img title="Santa Claus #2" src="./images-small/training/bredelehackathon_133_of_511.jpeg" width="50" height="50" /> | |
-|7     | <img title="snowball" src="./images-small/training/bredelehackathon_294_of_511.jpeg" width="50" height="50" /> | |
-|8     | <img title="snowman" src="./images-small/training/bredelehackathon_132_of_511.jpeg" width="50" height="50" /> | |
-|9     | <img title="shooting star" src="./images-small/training/bredelehackathon_156_of_511.jpeg" width="50" height="50" /> | |
-|10    | <img title="squirrel" src="./images-small/training/bredelehackathon_151_of_511.jpeg" width="50" height="50" /> | |
-|11    | <img title="star #1" src="./images-small/training/bredelehackathon_383_of_511.jpeg" width="50" height="50" /> | commercial |
-|11    | <img title="star #2" src="./images-small/training/bredelehackathon_165_of_511.jpeg" width="50" height="50" /> | |
-|12    | <img title="weird #1" src="./images-small/training/bredelehackathon_406_of_511.jpeg" width="50" height="50" /> | forgot baker's yeast :joy: |
+|1     | Christmas tree <br><img title="Christmas tree" src="./images-small/training/bredelehackathon_88_of_511.jpeg" width="100" height="100"/>  | |
+|2     | flake <br><img title="flake" src="./images-small/training/bredelehackathon_137_of_511.jpeg" width="100" height="100" /> | |
+|3     | heart #1 <br><img title="heart #1" src="./images-small/training/bredelehackathon_385_of_511.jpeg" width="100" height="100" /> | commercial |
+|3     | heart #2 <br><img title="heart #2" src="./images-small/training/bredelehackathon_153_of_511.jpeg" width="100" height="100" /> | |
+|4     | king mage <br><img title="king mage" src="./images-small/training/bredelehackathon_136_of_511.jpeg" width="100" height="100" /> | |
+|5     | lamb <br> <img title="lamb" src="./images-small/training/bredelehackathon_157_of_511.jpeg" width="100" height="100" /> | |
+|6     | Santa Claus #1 <br><img title="Santa Claus #1" src="./images-small/training/bredelehackathon_140_of_511.jpeg" width="100" height="100" /> | |
+|6     | Santa Claus #2 <br><img title="Santa Claus #2" src="./images-small/training/bredelehackathon_133_of_511.jpeg" width="100" height="100" /> | |
+|7     | snowball <br><img title="snowball" src="./images-small/training/bredelehackathon_294_of_511.jpeg" width="100" height="100" /> | |
+|8     | snowman <br><img title="snowman" src="./images-small/training/bredelehackathon_132_of_511.jpeg" width="100" height="100" /> | |
+|9     | shooting star <br><img title="shooting star" src="./images-small/training/bredelehackathon_156_of_511.jpeg" width="100" height="100" /> | |
+|10    | squirrel <br><img title="squirrel" src="./images-small/training/bredelehackathon_151_of_511.jpeg" width="100" height="100" /> | |
+|11    | star #1 <br><img title="star #1" src="./images-small/training/bredelehackathon_383_of_511.jpeg" width="100" height="100" /> | commercial |
+|11    | star #2 <br><img title="star #2" src="./images-small/training/bredelehackathon_165_of_511.jpeg" width="100" height="100" /> | |
+|12    | weird #1 <br><img title="weird #1" src="./images-small/training/bredelehackathon_406_of_511.jpeg" width="100" height="100" /> | forgot baker's yeast :joy: |
 |13    | weird #2 | forgot baker's yeast :joy: |
-|14    | <img title="Christmas shortbread with jam" src="./images-small/training/bredelehackathon_290_of_511.jpeg" width="50" height="50" /> | |
-|15    | <img title="angel" src="./images-small/training/bredelehackathon_148_of_511.jpeg" width="50" height="50" /> | |
-|16    | <img title="bretzel" src="./images-small/training/bredelehackathon_384_of_511.jpeg" width="50" height="50" /> | commercial |
+|14    | Christmas shortbread with jam <br><img title="Christmas shortbread with jam" src="./images-small/training/bredelehackathon_290_of_511.jpeg" width="100" height="100" /> | |
+|15    | angel <br><img title="angel" src="./images-small/training/bredelehackathon_148_of_511.jpeg" width="100" height="100" /> | |
+|16    | bretzel <br><img title="bretzel" src="./images-small/training/bredelehackathon_384_of_511.jpeg" width="100" height="100" /> | commercial |
 
 ---
 

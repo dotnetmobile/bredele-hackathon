@@ -307,4 +307,23 @@ python model_main_tf2.py --model_dir=bredele_output/run2 \
 --alsologtostderr --checkpoint_every_n=50
 ```
 
+### Generate the inference graph
+```
+cd /Users/Dotnetmobile/Documents
+
+conda activate tensorflow2
+
+export MYHOME=/Users/Dotnetmobile/Documents
+
+export PYTHONPATH=$PYTHONPATH:$MYHOME/tensorflow2/models/:$MYHOME/tensorflow2/models/research/:$MYHOME/tensorflow2/models/research/slim/
+
+cd $MYHOME/tensorflow2/models/research/object_detection
+
+python exporter_main_v2.py \
+    --input_type image_tensor \
+    --pipeline_config_path./training/faster_rcnn_inception_resnet_v2_756x1008_coco17_tpu-8 \
+    --trained_checkpoint_dir path/to/checkpoint \
+    --output_directory ./inference_graph
+```
+
 :thumbsup: That's it !
